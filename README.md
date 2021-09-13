@@ -1,6 +1,6 @@
 ![Platform Builders](https://img.shields.io/badge/Platform-Builders-yellow)
 [![Build Status](https://app.travis-ci.com/devmorfeu/rest-with-spring-boot.svg?branch=main)](https://travis-ci.com/devmorfeu/rest-with-spring-boot)
-[![codecov](https://codecov.io/gh/olbi-wan/cadastro-clientes/branch/main/graph/badge.svg?token=hVdNFsNmqN)](https://codecov.io/gh/olbi-wan/cadastro-clientes)
+[![codecov](https://codecov.io/gh/devmorfeu/rest-with-spring-boot/branch/main/graph/badge.svg?token=7QKNLL90QB)](https://app.codecov.io/gh/devmorfeu/rest-with-spring-boot)
 
 <p align="center">
   <i>
@@ -26,7 +26,7 @@ Aplicação simples simulando uma calculadora;
 
 ## Projeto
 
-Pequeno DevOps (compilação, cobertura): *[Travis CI](https://app.travis-ci.com/github/devmorfeu/rest-with-spring-boot), [Codecov](https://app.codecov.io/gh/olbi-wan/cadastro-clientes)*.
+Pequeno DevOps (compilação, cobertura): *[Travis CI](https://app.travis-ci.com/github/devmorfeu/rest-with-spring-boot), [Codecov](https://app.codecov.io/gh/devmorfeu/rest-with-spring-boot)*.
 
 #### Testes Unitários   
 
