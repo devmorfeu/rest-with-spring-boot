@@ -14,11 +14,11 @@ public class SimpleMathService {
 
     public Result sum(List<BigDecimal> numbers) { return new Result(numbers.stream().reduce(BigDecimal.ZERO, BigDecimal::add)); }
 
-    public Result subtract(List<BigDecimal> numbers) { return new Result(numbers.stream().reduce(BigDecimal.ZERO, BigDecimal::subtract));}
+    public Result subtract(List<BigDecimal> numbers) { return new Result(numbers.get(0).subtract(numbers.get(1)));};
 
-    public Result multiplication(List<BigDecimal> numbers) { return new Result(numbers.stream().reduce(BigDecimal.ZERO, BigDecimal::multiply));}
+    public Result multiplication(List<BigDecimal> numbers) { return new Result(numbers.get(0).multiply(numbers.get(1)));}
 
-    public Result division(List<BigDecimal> numbers) { return new Result(numbers.stream().reduce(BigDecimal.ZERO, BigDecimal::divide));}
+    public Result division(List<BigDecimal> numbers) { return new Result(numbers.get(0).divide(numbers.get(1), HALF_EVEN));}
 
     public Result average(List<BigDecimal> numbers) { return new Result(numbers.stream().reduce(BigDecimal.ZERO, BigDecimal::add).divide(new BigDecimal(2), HALF_EVEN));}
 
