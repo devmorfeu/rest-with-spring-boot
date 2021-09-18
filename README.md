@@ -30,7 +30,7 @@ Pequeno DevOps (compilação, cobertura): *[Travis CI](https://app.travis-ci.com
 
 #### Testes Unitários   
 
-**Mockito**
+**Assert**
    
 ```java
 // ...
