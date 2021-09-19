@@ -59,16 +59,17 @@ public class PersonControllerTest {
     }
 
     @Test
-    public void when_method_put_then_return_id_not_found() {
+    public void when_method_get_then_return_id_not_found() {
 
         when().request("GET", "v1/person/15")
                 .then().statusCode(404);
     }
 
     @Test
-    public void when_method_put_then_return_person_deleted() {
+    public void when_method_delete_then_return_person_deleted() {
 
         repository.save(new Person(2L, "RONALDO", "FENOMENO", "BRASIL", "M"));
+
         when().delete("v1/person/delete/{id}", 2L)
                 .then().log().all().statusCode(NO_CONTENT.value());
     }
